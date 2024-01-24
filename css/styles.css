@@ -6,29 +6,71 @@ body {
 a {
   text-decoration: none;
 }
+
 ol,
 ul {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.conteiner {
+  width: 100%;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .header {
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
+
+.header-conteiner {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
 .header-logo {
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17; /* 116.667% */
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .word-studio {
   color: var(--NAVY-BLUE, #2e2f42);
 }
 
-.address {
-  font-style: normal;
+.header-nav-list {
+  display: flex;
+  gap: 40px;
+  margin-right: 332px;
 }
 
 .header-nav-link {
@@ -37,12 +79,26 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: block;
 }
+
 .header-nav-link:hover {
   color: #404bbf;
 }
+
 .header-nav-link:focus {
   color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
+  margin-left: auto;
 }
 
 .address-list-link {
@@ -52,9 +108,11 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .address-list-link:hover {
   color: #404bbf;
 }
+
 .address-list-link:focus {
   color: #404bbf;
 }
@@ -81,9 +139,11 @@ ul {
   letter-spacing: 0.64px;
   cursor: pointer;
 }
+
 .description-button:hover {
   background-color: #404bbf;
 }
+
 .description-button:focus {
   background-color: #404bbf;
 }
@@ -143,6 +203,7 @@ ul {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
+
 .portfolio {
   background-color: #f4f4fd;
 }
@@ -172,6 +233,7 @@ ul {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
+
 footer {
   background: var(--NAVY-BLUE, #2e2f42);
 }

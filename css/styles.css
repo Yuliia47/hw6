@@ -48,7 +48,7 @@ img {
   align-items: center;
 }
 
-.hesder-container {
+.header-container {
   display: flex;
 }
 
@@ -207,8 +207,7 @@ img {
 
 .team {
   background-color: #f4f4fd;
-
-  padding-bottom: 120px 0;
+  padding: 120px 0;
   display: flex;
 }
 
@@ -237,6 +236,10 @@ img {
   background-color: #ffffff;
 }
 
+.team-item-img {
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team-item-name {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
@@ -260,7 +263,7 @@ img {
 
 .portfolio {
   background-color: #f4f4fd;
-
+  padding-top: 120px;
   padding-bottom: 120px 0;
 }
 
@@ -295,6 +298,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.4px;
   margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .portfolio-item-text {

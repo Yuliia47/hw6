@@ -175,10 +175,6 @@ img {
 .adventages-conteiner {
 }
 
-.visually-hidden {
-  display: none;
-}
-
 .adventages-list {
   display: flex;
   gap: 24px;

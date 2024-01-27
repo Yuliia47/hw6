@@ -168,15 +168,15 @@ img {
   background-color: #404bbf;
 }
 
-.visually-hidden {
-  display: none;
-}
-
 .adventages {
   padding: 120px 0;
 }
 
 .adventages-conteiner {
+}
+
+.visually-hidden {
+  display: none;
 }
 
 .adventages-list {

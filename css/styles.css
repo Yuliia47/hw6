@@ -237,9 +237,12 @@ img {
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
+  border: 1px solid #8e8f99;
 }
 
 .adventage-icon-icon{
+  margin-top: 24px;
+  margin-bottom: 24px;
 
 }
 

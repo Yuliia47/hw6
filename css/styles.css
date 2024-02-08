@@ -512,6 +512,8 @@ footer {
   background-color: #31d0aa;
 }
 
+/* Backdrop */
+
 .backdrop{
   position: fixed;
   top: 0;
@@ -544,7 +546,7 @@ footer {
   padding: 72px 24px 24px 24px;
   border-radius: 4px;
   transition: transform  250ms cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: зі значенням 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);  }
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);  }
   
   .modal-close{
     width:24px ;
@@ -647,6 +649,10 @@ footer {
     position: relative;
   }
   
+  .modal-field{
+    margin-bottom: 16px
+  }
+
   .modal-textarea{
     padding: 8px 16px;  
     width: 100%;
@@ -666,4 +672,53 @@ footer {
   
   .modal-textarea:focus,
   .modal-textarea:hover {
-        border-color: #4D5AE5}
+  border-color: #4D5AE5}
+
+  .checkbox{
+    margin-bottom: 24px;
+  }
+
+  .form-check{
+
+  }
+.check-test{
+  color:  #8E8F99;
+    font-size: 12px;
+    font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.48px;
+  }
+
+  .check-test span{
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+margin-right: 12px;
+border: 1px solid rgba(46, 47, 66, 0.4);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+display: inline-flex;
+align-items: center;
+justify-content: center;
+fill: transparent; 
+  }
+
+  .form-check:checked + .check-test span{
+    background-color: #31d0aa;
+    bottom: none;
+  }
+
+  .button-sent{
+    display: block; 
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }

@@ -501,7 +501,7 @@
             </div>
           </div>
           <div class="div-lable">
-            <label for="user-name" class="modal-lable">Email</label>
+            <label for="user-name" class="modal-lable">Phone</label>
             <div class="modal-imput-wraf">
               <input
                 type="text"
@@ -516,7 +516,7 @@
             </div>
           </div>
           <div class="div-lable">
-            <label for="user-name" class="modal-lable">Phone</label>
+            <label for="user-name" class="modal-lable">Email</label>
             <div class="modal-imput-wraf">
               <input
                 type="text"
@@ -531,15 +531,30 @@
             </div>
           </div>
           <div class="modal-field">
-            <label for="user-text" class="modal-textarea">Comment</label>
+            <label for="user-comment" class="modal-textarea">Comment</label>
             <textarea
-              name="user-text"
-              id="user-text"
+              name="user-comment"
+              id="user-comment"
               class="modal-textarea"
               placeholder="Text input"
             ></textarea>
           </div>
-          <button type="submit">Send</button>
+          <div class="checkbox">
+            <input
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+              class="form-check visually-hidden"
+            />
+            <label for="user-privacy" class="check-test"
+              ><span
+                ><svg class="" widgh="10" height="8">
+                  <use href=""></use></svg></span
+              >I accept the terms and conditions of the Privacy Policy</label
+            >
+          </div>
+          <button type="submit" class="button-sent">Send</button>
         </form>
       </div>
     </div>

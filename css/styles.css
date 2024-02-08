@@ -522,7 +522,7 @@ footer {
   opacity: 0;
   visibility: hidden;
   position: none;
-  transition: opasity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   
@@ -541,10 +541,10 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  padding: 72px 24px;
+  padding: 72px 24px 24px 24px;
   border-radius: 4px;
-  transition: transforn  250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+  transition: transform  250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: зі значенням 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);  }
   
   .modal-close{
     width:24px ;
@@ -554,7 +554,7 @@ footer {
     padding: 0;
     border: 1px solid rgb(0, 0, 0, 0.10);
     border-radius: 50%;
-    background-color: E7E9FC;
+    background-color: #E7E9FC;
     position: absolute;
     cursor: pointer;
     display: flex;
@@ -602,6 +602,7 @@ footer {
     height: 40px;
     font-size: 12px;
     background-color: transparent;
+    outline: transparent; 
     border: 1px  solid  rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     margin-bottom: 18px;
@@ -614,7 +615,7 @@ footer {
   }
   
   .modal-input:focus + .modal-icon{
-    stroke: #4D5AE5
+    fill: #4D5AE5
   }
   
   .modal-input::placeholder{
@@ -624,9 +625,9 @@ footer {
   
   .modal-lable{
     display: block;
-    margin-bottom: 8px;
-  font-size: 12px
-  line-height: 117%;
+    margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8E8F99;
   

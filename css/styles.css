@@ -521,12 +521,23 @@ line-height: 1,5;
 letter-spacing: 0.32px;
 }
 
+.text-footer-subscribe{
+  color: var(--WHITE, #FFF);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: 0.32px;
+  width: 264px;
+
+}
+
 .form-footer-subscribe{
   display: flex;
   gap: 24px;
   }
 
-  .label-footer-subscribe{
+.label-footer-subscribe{
 
   }
 
@@ -583,11 +594,11 @@ letter-spacing: 0.32px;
   }
   
   
-  /* .is-open{
+  .is-open{
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-  } */
+  }
   
   .modal {
   width: 408px;

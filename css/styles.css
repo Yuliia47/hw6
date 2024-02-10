@@ -693,7 +693,7 @@ letter-spacing: 0.32px;
     color: #2E2F42;
   }
   
-  .modal-lable, {
+  .modal-lable{
     display: block;
     margin-bottom: 4px;
   font-size: 12px;

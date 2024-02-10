@@ -693,7 +693,7 @@ letter-spacing: 0.32px;
     color: #2E2F42;
   }
   
-  .modal-lable, .modal-field-textarea{
+  .modal-lable, {
     display: block;
     margin-bottom: 4px;
   font-size: 12px;
@@ -768,9 +768,11 @@ display: inline-flex;
 align-items: center;
 justify-content: center;
 fill: transparent; 
+margin-right: 8px;
+
   }
 
-  .form-check:checked + .checkbox-span{
+  .form-check:checked + .check-test span{
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;

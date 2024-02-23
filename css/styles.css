@@ -61,7 +61,7 @@ img {
   
   padding: 16px 0;
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
-  display: flex;
+  /* display: flex; */
   align-items: center;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -73,6 +73,7 @@ img {
 padding: 0;
 background-color: transparent;
 border: none;
+margin-left: 80px;
 }
 
 .header-container {
@@ -186,6 +187,9 @@ border: none;
   .header{
     padding: 0;
   }
+  .header-logo{
+    margin-right: 76px;
+  }
   .address-list {
     display: flex;
     /* gap: 40px; */
@@ -209,7 +213,12 @@ border: none;
    .header-container{
     
    } 
-    
+    .header-container{
+      
+    }
+    .address-list {
+      
+      gap: 40px;}
 }
 
 /* Description */
@@ -219,7 +228,7 @@ border: none;
   background-color: #2e2f42;
   padding: 72px 0;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/Dark-bg-mobi.jpg);
+    url(../images/hero-m.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
@@ -231,7 +240,7 @@ border: none;
 (min-resolution: 192dpi), 
 (min-resolution: 2dppx) {
   .description {background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/hero-tab-1.jpg);}
+    url(../images/hero-m-2x.jpg);}
 }
 
 .description-title {
@@ -301,15 +310,15 @@ border: none;
   margin-bottom: 48px;
   }
   .description {background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/Dark-bg-tab-2x.jpg);}
+    url(../images/people-office1.jpg);}
 
     @media screen and (min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi), 
 (min-resolution: 2dppx) {
   .description {background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/people-office1.jpg);}
+    url(../images/people-office-2x.jpg)
 }
-}
+  }}
 
 /* Adventages */
 
@@ -539,6 +548,10 @@ border: none;
   .team-item{
     width: calc((100%-72px)/4);
   }
+  .team {
+    
+    padding: 120px 0;
+  }
 }
 
 /* Portfolio */
@@ -633,7 +646,7 @@ border: none;
 
 @media screen and (min-width:768px) {
   .portfolio{
-    padding: 120px 0;
+    padding: 96px 0;
   }
   .portfolio-list{
     flex-direction: row;
@@ -655,6 +668,9 @@ border: none;
   .portfolio-list{
    
     gap: 48px 24px;
+  }
+  .portfolio{
+    padding: 120px 0;
   }
 }
 

@@ -97,7 +97,7 @@ margin-left: 80px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
+  /* margin-right: 76px; */
 }
 
 .word-studio {
@@ -204,6 +204,9 @@ margin-left: 80px;
     color:#434455;
     gap: 12px;
   }
+  .header-logo{
+    margin-right: 76px;
+  }
 }
 
 @media screen and (min-width:1158px) {
@@ -219,6 +222,11 @@ margin-left: 80px;
     .address-list {
       
       gap: 40px;}
+  .header-logo{
+    margin-right: 76px;
+  }
+  .address-list-item{
+    font-size: 16px;}
 }
 
 /* Description */
@@ -232,7 +240,7 @@ margin-left: 80px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
-  max-width: 1440px;
+  max-width: 320px;
   background-size: cover;
   margin: 0 auto;
 }
@@ -286,6 +294,7 @@ margin-left: 80px;
 
 @media screen and (min-width:768px) {
   .description {padding: 112px 0;
+    min-width: 768px;
   }
   .description-title{
     font-size: 56px;
@@ -305,6 +314,7 @@ margin-left: 80px;
 
 @media screen and (min-width:1158px) {
   .description {padding: 188px 0;
+    min-width: 1440px;
   }
   .description-title{
   margin-bottom: 48px;
@@ -400,12 +410,18 @@ margin-left: 80px;
   /* width: 356px; */
   
  }
+ .description{
+  max-width: 768;
+ }
  
 }
 
 @media screen and (min-width:1158px) {
   .adventages {
     padding: 120px 0;
+    .description{
+      max-width: 1440;
+     }
   }
   .address-list{
     gap: 24px;
@@ -490,9 +506,9 @@ margin-left: 80px;
   text-align: center;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5; 
   letter-spacing: 0.32px;
-  margin: 8px;
+  margin-bottom: 8px;
 }
 
 .icon-list {
@@ -500,6 +516,10 @@ margin-left: 80px;
   justify-content: center;
   align-items: center;
   gap: 24px;
+  width: 356px;
+}
+.adventages-item-text{
+  width: 356px;
 }
 
 .icon-list-footer{
@@ -854,6 +874,16 @@ text-align: center;
 @media screen and (min-width:1158px) {
   footer{
     padding: 96px 0;
+  }
+  .container-footer{
+    padding-left: 0px;
+    gap: 0;
+  }
+  .footer-logo{
+    margin-right: 120px;
+  }
+  .footer-soc{
+    margin-right: auto;
   }
 }
   
